@@ -8,7 +8,11 @@ https://app.swaggerhub.com/apis/karankaw/contoso-actor_locator_api_ec_2/1.0
 
 > Swagger API Docs Url
 https://app.swaggerhub.com/apis-docs/karankaw/contoso-actor_locator_api_ec_2/1.0  
-    
+
+
+> Direct URL APIs
+http://ec2-3-92-42-240.compute-1.amazonaws.com:8080/actorLocator  
+  
       
 ## CICD Approach
 - I have used Maven to Build Executable Jar file
