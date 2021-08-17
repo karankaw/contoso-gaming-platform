@@ -94,6 +94,7 @@ Private Ip Address
 ## Known Limitations (Time Limitations)
 
  - I could have added more Models/Type Safety/Validation inside the code
+ - I have used String as Landmark/Node names for simplicity as given in sample input.
  - Error Handling Mechanism - Generic
  - Could have implemented Monitoring and Cloudwatch Integration of Logs
 
