@@ -9,16 +9,38 @@ https://app.swaggerhub.com/apis/karankaw/contoso-actor_locator_api_ec_2/1.0
 > Swagger API Docs Url
 https://app.swaggerhub.com/apis-docs/karankaw/contoso-actor_locator_api_ec_2/1.0  
 
-
 > Direct URL APIs
 http://ec2-3-92-42-240.compute-1.amazonaws.com:8080/actorLocator  
-  
-      
+
+****
+
+## Rest EndPoint Description
+Run this 1st and atleast once before running other operations, so that App gets initialized
+Further invocation of this operation will replace input Data altogether
+
+> POST  /actorLocator/addInputData    
+
+<br/>
+Takes input as "A-E-B-C-D" and provides Distance[string]  
+
+> GET    /actorLocator/calculateRouteDistance
+
+<br/>
+Takes input as a pair of Nodes with space "A C" and provide integer routeCount  
+
+> GET    /actorLocator/findNumberOfRoutes
+
+<br/>
+This is healthCheck url - Its 200 means service is ON  
+
+> GET    /actorLocator
+****
+
 ## CICD Approach
 - I have used Maven to Build Executable Jar file
- - I have used DockerFile" to build image 
- - The Jar has been invoked using   Docker
- - Container  is  using 8080:8080 PORT Mapping 
+- I have used DockerFile" to build image 
+- The Jar has been invoked using   Docker
+- Container  is  using 8080:8080 PORT Mapping 
 ****
  
  
